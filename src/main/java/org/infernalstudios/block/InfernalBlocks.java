@@ -25,6 +25,9 @@ public class InfernalBlocks {
     public static final Block GLOWLIGHT_GLASS = registerBlockWithItem("glowlight_glass", new TransparentBlock(AbstractBlock.Settings.create().instrument(Instrument.HAT).strength(0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().allowsSpawning(Blocks::never).solidBlock(Blocks::never).suffocates(Blocks::never).blockVision(Blocks::never).luminance(value -> 10)));
     public static final Block GLOWLIGHT_GLASS_PANE = registerBlockWithItem("glowlight_glass_pane", new PaneBlock(AbstractBlock.Settings.create().instrument(Instrument.HAT).strength(0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(value -> 10)));
 
+    public static final Block CRIMSON_NYLIUM_CARPET = registerBlockWithItem("crimson_nylium_carpet", new CarpetBlock(AbstractBlock.Settings.create().mapColor(MapColor.DULL_RED).strength(0.1f).sounds(BlockSoundGroup.NYLIUM).pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block WARPED_NYLIUM_CARPET = registerBlockWithItem("warped_nylium_carpet", new CarpetBlock(AbstractBlock.Settings.create().mapColor(MapColor.TEAL).strength(0.1f).sounds(BlockSoundGroup.NYLIUM).pistonBehavior(PistonBehavior.DESTROY)));
+
     public static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, new Identifier(InfernalExpansion.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
