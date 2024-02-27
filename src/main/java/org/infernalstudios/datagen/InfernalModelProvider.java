@@ -22,6 +22,9 @@ public class InfernalModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerGlassPane(QUARTZ_GLASS, QUARTZ_GLASS_PANE);
         blockStateModelGenerator.registerGlassPane(GLOWLIGHT_GLASS, GLOWLIGHT_GLASS_PANE);
+
+        BlockStateModelGenerator.BlockTexturePool cobbledBasaltPool = blockStateModelGenerator.registerCubeAllModelTexturePool(COBBLED_BASALT);
+        cobbledBasaltPool.slab(COBBLED_BASALT_SLAB);
     }
 
     @Override

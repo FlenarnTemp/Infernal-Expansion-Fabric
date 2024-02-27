@@ -34,8 +34,11 @@ public class InfernalItemGroups {
                         entries.add(GLOWLIGHT_TORCH_ITEM);
                         entries.add(MUSIC_DISC_FLUSH);
                         entries.add(MUSIC_DISC_SOUL_SPUNK);
-                        entries.add(GLOWLIGHT_LANTERN);
 
+                        entries.add(COBBLED_BASALT);
+                        entries.add(COBBLED_BASALT_SLAB);
+
+                        entries.add(GLOWLIGHT_LANTERN);
                         entries.add(CRIMSON_NYLIUM_CARPET);
                         entries.add(WARPED_NYLIUM_CARPET);
                         entries.add(QUARTZ_GLASS);

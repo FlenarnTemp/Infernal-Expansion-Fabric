@@ -1,6 +1,9 @@
 {
   "itemgroup.InfernalTab": "Infernal Expansion",
 
+  "block.infernal_expansion.cobbled_basalt": "Cobbled Basalt",
+  "block.infernal_expansion.cobbled_basalt_slab": "Cobbled Basalt Slab",
+
   "block.infernal_expansion.quartz_glass": "Quartz Glass",
   "block.infernal_expansion.quartz_glass_pane": "Quartz Glass Pane",
 
@@ -8,6 +11,9 @@
   "block.infernal_expansion.glowlight_torch": "Glowlight Torch",
   "block.infernal_expansion.glowlight_glass": "Glowlight Glass",
   "block.infernal_expansion.glowlight_glass_pane": "Glowlight Glass Pane",
+
+  "block.infernal_expansion.crimson_nylium_carpet": "Crimson Nylium Carpet",
+  "block.infernal_expansion.warped_nylium_carpet": "Warped Nylium Carpet",
 
   "item.infernal_expansion.glowcoke":  "Glowcoke",
   "item.infernal_expansion.dullrocks": "Dullrocks",

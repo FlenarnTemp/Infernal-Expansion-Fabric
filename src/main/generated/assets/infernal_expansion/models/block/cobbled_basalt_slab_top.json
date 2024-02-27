@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "infernal_expansion:block/cobbled_basalt",
+    "side": "infernal_expansion:block/cobbled_basalt",
+    "top": "infernal_expansion:block/cobbled_basalt"
+  }
+}

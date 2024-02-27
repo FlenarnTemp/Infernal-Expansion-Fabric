@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "infernal_expansion:block/cobbled_basalt_slab"
+    },
+    "type=double": {
+      "model": "infernal_expansion:block/cobbled_basalt"
+    },
+    "type=top": {
+      "model": "infernal_expansion:block/cobbled_basalt_slab_top"
+    }
+  }
+}

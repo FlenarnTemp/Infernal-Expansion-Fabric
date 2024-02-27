@@ -28,6 +28,9 @@ public class InfernalBlocks {
     public static final Block CRIMSON_NYLIUM_CARPET = registerBlockWithItem("crimson_nylium_carpet", new CarpetBlock(AbstractBlock.Settings.create().mapColor(MapColor.DULL_RED).strength(0.1f).sounds(BlockSoundGroup.NYLIUM).pistonBehavior(PistonBehavior.DESTROY)));
     public static final Block WARPED_NYLIUM_CARPET = registerBlockWithItem("warped_nylium_carpet", new CarpetBlock(AbstractBlock.Settings.create().mapColor(MapColor.TEAL).strength(0.1f).sounds(BlockSoundGroup.NYLIUM).pistonBehavior(PistonBehavior.DESTROY)));
 
+    public static final Block COBBLED_BASALT = registerBlockWithItem("cobbled_basalt", new PillarBlock(AbstractBlock.Settings.copy(Blocks.GRAVEL).sounds(BlockSoundGroup.BASALT)));
+    public static final Block COBBLED_BASALT_SLAB = registerBlockWithItem("cobbled_basalt_slab", new SlabBlock(AbstractBlock.Settings.copy(Blocks.GRAVEL).sounds(BlockSoundGroup.BASALT)));
+
     public static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, new Identifier(InfernalExpansion.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
