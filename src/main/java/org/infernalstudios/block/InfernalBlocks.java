@@ -31,6 +31,11 @@ public class InfernalBlocks {
     public static final Block COBBLED_BASALT = registerBlockWithItem("cobbled_basalt", new PillarBlock(AbstractBlock.Settings.copy(Blocks.GRAVEL).sounds(BlockSoundGroup.BASALT)));
     public static final Block COBBLED_BASALT_SLAB = registerBlockWithItem("cobbled_basalt_slab", new SlabBlock(AbstractBlock.Settings.copy(Blocks.GRAVEL).sounds(BlockSoundGroup.BASALT)));
 
+    public static final Block BASALT_SLAB = registerBlockWithItem("basalt_slab", new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block BASALT_STAIRS = registerBlockWithItem("basalt_stairs", new StairsBlock(Blocks.BASALT.getDefaultState(), AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block BASALT_WALL = registerBlockWithItem("basalt_wall", new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
+    public static final Block BASALT_BUTTON = registerBlockWithItem("basalt_button", Blocks.createStoneButtonBlock());
+
     public static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, new Identifier(InfernalExpansion.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));

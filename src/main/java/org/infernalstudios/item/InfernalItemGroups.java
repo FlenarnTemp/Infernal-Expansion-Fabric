@@ -37,6 +37,10 @@ public class InfernalItemGroups {
 
                         entries.add(COBBLED_BASALT);
                         entries.add(COBBLED_BASALT_SLAB);
+                        entries.add(BASALT_SLAB);
+                        entries.add(BASALT_STAIRS);
+                        entries.add(BASALT_WALL);
+                        entries.add(BASALT_BUTTON);
 
                         entries.add(GLOWLIGHT_LANTERN);
                         entries.add(CRIMSON_NYLIUM_CARPET);
