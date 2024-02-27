@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_hanging_lantern",
+  "textures": {
+    "lantern": "infernal_expansion:block/glowlight_lantern"
+  }
+}

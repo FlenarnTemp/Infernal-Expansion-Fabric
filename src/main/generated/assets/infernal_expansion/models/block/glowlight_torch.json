@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_torch",
+  "textures": {
+    "torch": "infernal_expansion:block/glowlight_torch"
+  }
+}

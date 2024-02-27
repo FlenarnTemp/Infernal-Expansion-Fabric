@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "infernal_expansion:block/wall_glowlight_torch"
+    },
+    "facing=north": {
+      "model": "infernal_expansion:block/wall_glowlight_torch",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "infernal_expansion:block/wall_glowlight_torch",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "infernal_expansion:block/wall_glowlight_torch",
+      "y": 180
+    }
+  }
+}

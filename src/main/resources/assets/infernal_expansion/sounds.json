@@ -1,0 +1,19 @@
+{
+  "record.soul_spunk": {
+    "sounds": [
+      {
+        "name": "infernal_expansion:record/soul_spunk",
+        "stream": true
+      }
+    ]
+  },
+  "record.flush": {
+    "sounds": [
+      {
+        "name": "infernal_expansion:record/flush",
+        "stream": true,
+        "volume": 2
+      }
+    ]
+  }
+}

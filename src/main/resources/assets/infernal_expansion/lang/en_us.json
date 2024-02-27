@@ -1,0 +1,31 @@
+{
+  "itemgroup.InfernalTab": "Infernal Expansion",
+
+  "block.infernal_expansion.quartz_glass": "Quartz Glass",
+  "block.infernal_expansion.quartz_glass_pane": "Quartz Glass Pane",
+
+  "block.infernal_expansion.glowlight_lantern": "Glowlight Lantern",
+  "block.infernal_expansion.glowlight_torch": "Glowlight Torch",
+  "block.infernal_expansion.glowlight_glass": "Glowlight Glass",
+  "block.infernal_expansion.glowlight_glass_pane": "Glowlight Glass Pane",
+
+  "item.infernal_expansion.glowcoke":  "Glowcoke",
+  "item.infernal_expansion.dullrocks": "Dullrocks",
+  "item.infernal_expansion.moth_dust": "Moth Dust",
+  "item.infernal_expansion.molten_gold_cluster": "Molten Gold Cluster",
+  "item.infernal_expansion.glowsilk": "Glowsilk",
+  "item.infernal_expansion.soul_salt_clump": "Soul Salt Clump",
+  "item.infernal_expansion.blindsight_tongue": "Blindsight Tongue",
+  "item.infernal_expansion.blindsight_tongue_stew": "Fungus & Tongue Stew",
+  "item.infernal_expansion.cured_jerky": "Cured Jerky",
+  "item.infernal_expansion.spirit_eye": "Sprit Eye",
+  "item.infernal_expansion.raw_hogchop": "Raw Hogchop",
+  "item.infernal_expansion.cooked_hogchop": "Cooked Hogchop",
+
+  "item.infernal_expansion.music_disc_soul_spunk": "Music Disc",
+  "item.infernal_expansion.music_disc_soul_spunk.desc": "LudoCrypt - Soul Spunk",
+  "item.infernal_expansion.music_disc_flush": "Music Disc",
+  "item.infernal_expansion.music_disc_flush.desc": "LudoCrypt - flush",
+
+  "effect.infernal_expansion.infection": "Infection"
+}
