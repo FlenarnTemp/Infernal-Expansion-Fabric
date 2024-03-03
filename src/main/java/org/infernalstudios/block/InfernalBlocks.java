@@ -25,16 +25,20 @@ public class InfernalBlocks {
     public static final Block GLOWLIGHT_GLASS = registerBlockWithItem("glowlight_glass", new TransparentBlock(AbstractBlock.Settings.create().instrument(Instrument.HAT).strength(0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().allowsSpawning(Blocks::never).solidBlock(Blocks::never).suffocates(Blocks::never).blockVision(Blocks::never).luminance(value -> 10)));
     public static final Block GLOWLIGHT_GLASS_PANE = registerBlockWithItem("glowlight_glass_pane", new PaneBlock(AbstractBlock.Settings.create().instrument(Instrument.HAT).strength(0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(value -> 10)));
 
+    public static final Block CRIMSON_NYLIUM_PATH = registerBlockWithItem("crimson_nylium_path", new NetherrackPathBlock(AbstractBlock.Settings.create().mapColor(MapColor.DULL_RED).strength(0.4f).sounds(BlockSoundGroup.NYLIUM).blockVision(Blocks::always).suffocates(Blocks::always)));
+    public static final Block WARPED_NYLIUM_PATH = registerBlockWithItem("warped_nylium_path", new NetherrackPathBlock(AbstractBlock.Settings.create().mapColor(MapColor.TEAL).strength(0.4f).sounds(BlockSoundGroup.NYLIUM).blockVision(Blocks::always).suffocates(Blocks::always)));
+
     public static final Block CRIMSON_NYLIUM_CARPET = registerBlockWithItem("crimson_nylium_carpet", new CarpetBlock(AbstractBlock.Settings.create().mapColor(MapColor.DULL_RED).strength(0.1f).sounds(BlockSoundGroup.NYLIUM).pistonBehavior(PistonBehavior.DESTROY)));
     public static final Block WARPED_NYLIUM_CARPET = registerBlockWithItem("warped_nylium_carpet", new CarpetBlock(AbstractBlock.Settings.create().mapColor(MapColor.TEAL).strength(0.1f).sounds(BlockSoundGroup.NYLIUM).pistonBehavior(PistonBehavior.DESTROY)));
 
-    public static final Block COBBLED_BASALT = registerBlockWithItem("cobbled_basalt", new PillarBlock(AbstractBlock.Settings.copy(Blocks.GRAVEL).sounds(BlockSoundGroup.BASALT)));
-    public static final Block COBBLED_BASALT_SLAB = registerBlockWithItem("cobbled_basalt_slab", new SlabBlock(AbstractBlock.Settings.copy(Blocks.GRAVEL).sounds(BlockSoundGroup.BASALT)));
+    public static final Block SOUL_SOIL_PATH = registerBlockWithItem("soul_soil_path", new SoulSoilPathBlock(AbstractBlock.Settings.copy(Blocks.SOUL_SOIL)));
 
-    public static final Block BASALT_SLAB = registerBlockWithItem("basalt_slab", new SlabBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
-    public static final Block BASALT_STAIRS = registerBlockWithItem("basalt_stairs", new StairsBlock(Blocks.BASALT.getDefaultState(), AbstractBlock.Settings.copy(Blocks.BASALT)));
-    public static final Block BASALT_WALL = registerBlockWithItem("basalt_wall", new WallBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
-    public static final Block BASALT_BUTTON = registerBlockWithItem("basalt_button", Blocks.createStoneButtonBlock());
+    public static final Block DIMSTONE = registerBlockWithItem("dimstone", new Block(AbstractBlock.Settings.create().nonOpaque().strength(1.8f, 2.0f).requiresTool().luminance(lightLeve -> 12)));
+    public static final Block DULLSTONE = registerBlockWithItem("dullstone", new Block(AbstractBlock.Settings.create().nonOpaque().strength(1.5f, 6.0f).requiresTool()));
+
+    public static final Block CRIMSON_FUNGUS_CAP = registerBlockWithItem("crimson_fungus_cap", new FungalCapBlock(AbstractBlock.Settings.copy(Blocks.NETHER_WART_BLOCK)));
+    public static final Block WARPED_FUNGUS_CAP = registerBlockWithItem("warped_fungus_cap", new FungalCapBlock(AbstractBlock.Settings.copy(Blocks.NETHER_WART_BLOCK)));
+    public static final Block LUMINOUS_FUNGUS_CAP = registerBlockWithItem("luminous_fungus_cap", new FungalCapBlock(AbstractBlock.Settings.copy(Blocks.NETHER_WART_BLOCK).luminance(lightValue -> 14)));
 
     public static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, new Identifier(InfernalExpansion.MOD_ID, name),

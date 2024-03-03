@@ -20,7 +20,6 @@ public class InfernalItemGroups {
                         entries.add(GLOWCOKE);
                         entries.add(DULLROCKS);
                         entries.add(MOTH_DUST);
-                        entries.add(MOLTEN_GOLD_CLUSTER);
                         entries.add(GLOWSILK);
                         entries.add(SOUL_SALT_CLUMP);
 
@@ -35,16 +34,19 @@ public class InfernalItemGroups {
                         entries.add(MUSIC_DISC_FLUSH);
                         entries.add(MUSIC_DISC_SOUL_SPUNK);
 
-                        entries.add(COBBLED_BASALT);
-                        entries.add(COBBLED_BASALT_SLAB);
-                        entries.add(BASALT_SLAB);
-                        entries.add(BASALT_STAIRS);
-                        entries.add(BASALT_WALL);
-                        entries.add(BASALT_BUTTON);
+                        entries.add(DIMSTONE);
+                        entries.add(DULLSTONE);
 
                         entries.add(GLOWLIGHT_LANTERN);
+                        entries.add(CRIMSON_FUNGUS_CAP);
+                        entries.add(LUMINOUS_FUNGUS_CAP);
+                        entries.add(WARPED_FUNGUS_CAP);
+
+                        entries.add(CRIMSON_NYLIUM_PATH);
+                        entries.add(WARPED_NYLIUM_PATH);
                         entries.add(CRIMSON_NYLIUM_CARPET);
                         entries.add(WARPED_NYLIUM_CARPET);
+                        entries.add(SOUL_SOIL_PATH);
                         entries.add(QUARTZ_GLASS);
                         entries.add(QUARTZ_GLASS_PANE);
                         entries.add(GLOWLIGHT_GLASS);

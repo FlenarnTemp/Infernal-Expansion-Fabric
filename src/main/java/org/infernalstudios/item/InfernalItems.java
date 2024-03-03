@@ -20,7 +20,6 @@ public class InfernalItems {
     public static final Item GLOWCOKE = registerItem("glowcoke", new Item(new FabricItemSettings()));
     public static final Item DULLROCKS = registerItem("dullrocks", new Item(new FabricItemSettings()));
     public static final Item MOTH_DUST = registerItem("moth_dust", new Item(new FabricItemSettings()));
-    public static final Item MOLTEN_GOLD_CLUSTER = registerItem("molten_gold_cluster", new Item(new FabricItemSettings()));
     public static final Item GLOWSILK = registerItem("glowsilk", new Item(new FabricItemSettings()));
     public static final Item SOUL_SALT_CLUMP = registerItem("soul_salt_clump", new Item(new FabricItemSettings()));
 
@@ -30,7 +29,6 @@ public class InfernalItems {
     public static final Item SPIRIT_EYE = registerItem("spirit_eye", new Item(new FabricItemSettings().food(InfernalFoodComponents.SPIRIT_EYE)));
     public static final Item RAW_HOGCHOP = registerItem("raw_hogchop", new Item(new FabricItemSettings().food(InfernalFoodComponents.RAW_HOGCHOP)));
     public static final Item COOKED_HOGCHOP = registerItem("cooked_hogchop", new Item(new FabricItemSettings().food(InfernalFoodComponents.COOKED_HOGCHOP)));
-
 
     public static final Item MUSIC_DISC_SOUL_SPUNK = registerItem("music_disc_soul_spunk", new MusicDiscItem(8, InfernalSounds.SOUL_SPUNK, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 233));
     public static final Item MUSIC_DISC_FLUSH = registerItem("music_disc_flush", new MusicDiscItem(7, InfernalSounds.FLUSH, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 261));

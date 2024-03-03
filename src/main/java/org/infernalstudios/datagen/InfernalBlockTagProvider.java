@@ -16,7 +16,5 @@ public class InfernalBlockTagProvider extends FabricTagProvider.BlockTagProvider
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-        getOrCreateTagBuilder(BlockTags.WALLS)
-                .add(BASALT_WALL);
     }
 }

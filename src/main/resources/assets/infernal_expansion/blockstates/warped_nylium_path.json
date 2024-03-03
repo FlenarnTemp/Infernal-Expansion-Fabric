@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "infernal_expansion:block/warped_nylium_path"
+      },
+      {
+        "model": "infernal_expansion:block/warped_nylium_path",
+        "y": 90
+      },
+      {
+        "model": "infernal_expansion:block/warped_nylium_path",
+        "y": 180
+      },
+      {
+        "model": "infernal_expansion:block/warped_nylium_path",
+        "y": 270
+      }
+    ]
+  }
+}

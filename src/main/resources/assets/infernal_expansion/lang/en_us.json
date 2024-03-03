@@ -3,10 +3,8 @@
 
   "block.infernal_expansion.cobbled_basalt": "Cobbled Basalt",
   "block.infernal_expansion.cobbled_basalt_slab": "Cobbled Basalt Slab",
-  "block.infernal_expansion.basalt_slab": "Basalt Slab",
-  "block.infernal_expansion.basalt_stairs": "Basalt Stairs",
-  "block.infernal_expansion.basalt_wall": "Basalt Wall",
-  "block.infernal_expansion.basalt_button": "Basalt Button",
+  "block.infernal_expansion.cobbled_basalt_stairs": "Cobbled Basalt Stairs",
+  "block.infernal_expansion.cobbled_basalt_wall": "Cobbled Basalt Wall",
 
   "block.infernal_expansion.quartz_glass": "Quartz Glass",
   "block.infernal_expansion.quartz_glass_pane": "Quartz Glass Pane",

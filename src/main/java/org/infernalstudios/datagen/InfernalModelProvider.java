@@ -23,8 +23,7 @@ public class InfernalModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerGlassPane(QUARTZ_GLASS, QUARTZ_GLASS_PANE);
         blockStateModelGenerator.registerGlassPane(GLOWLIGHT_GLASS, GLOWLIGHT_GLASS_PANE);
 
-        BlockStateModelGenerator.BlockTexturePool cobbledBasaltPool = blockStateModelGenerator.registerCubeAllModelTexturePool(COBBLED_BASALT);
-        cobbledBasaltPool.slab(COBBLED_BASALT_SLAB);
+        blockStateModelGenerator.registerSimpleCubeAll(DULLSTONE);
     }
 
     @Override
@@ -33,7 +32,6 @@ public class InfernalModelProvider extends FabricModelProvider {
                 GLOWCOKE,
                 DULLROCKS,
                 MOTH_DUST,
-                MOLTEN_GOLD_CLUSTER,
                 GLOWSILK,
                 SOUL_SALT_CLUMP,
                 BLINDSIGHT_TONGUE,

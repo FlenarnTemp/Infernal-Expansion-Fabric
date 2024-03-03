@@ -18,7 +18,7 @@ public class InfernalFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 200), 1.0F).build();
 
     public static final FoodComponent RAW_HOGCHOP = new FoodComponent.Builder().hunger(4).saturationModifier(0.3f).meat()
-            .statusEffect(new StatusEffectInstance(InfernalEffects.INFECTION_EFFECT, 200, 1), 1.0f).build();
+            .statusEffect(new StatusEffectInstance(StatusEffects.POISON, 200, 1), 1.0f).build();
 
     public static final FoodComponent COOKED_HOGCHOP = new FoodComponent.Builder().hunger(10).saturationModifier(0.8f).meat()
             .statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 200, 1), 1.0f).build();

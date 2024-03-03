@@ -14,13 +14,5 @@ public class InfernalLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(GLOWLIGHT_TORCH);
         addDrop(GLOWLIGHT_LANTERN);
-
-        addDrop(COBBLED_BASALT);
-        addDrop(COBBLED_BASALT_SLAB, slabDrops(COBBLED_BASALT_SLAB));
-
-        addDrop(BASALT_STAIRS);
-        addDrop(BASALT_WALL);
-        addDrop(BASALT_BUTTON);
-        addDrop(BASALT_SLAB, slabDrops(BASALT_SLAB));
     }
 }

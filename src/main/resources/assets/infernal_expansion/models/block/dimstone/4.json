@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "infernal_expansion:block/dimstone/4"
+  }
+}

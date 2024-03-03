@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "infernal_expansion:block/dimstone/1"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/2"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/3"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/4"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/5"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/6"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/7"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/8"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/9"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/10"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/11"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/12"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/13"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/14"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/15"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/16"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/17"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/18"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/19"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/20"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/21"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/22"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/23"
+      },
+      {
+        "model": "infernal_expansion:block/dimstone/24"
+      }
+    ]
+  }
+}
