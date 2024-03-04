@@ -2,8 +2,8 @@
   "parent": "block/block",
   "textures": {
     "particle": "block/warped_nylium",
-    "top": "infernal_expansion:block/warped_nylium_path",
-    "side": "infernal_expansion:block/warped_nylium_path_side",
+    "top": "infernal_expansion:block/warped_nylium_path_top",
+    "side": "infernal_expansion:block/warped_nylium_path",
     "bottom": "block/netherrack"
   },
   "elements": [

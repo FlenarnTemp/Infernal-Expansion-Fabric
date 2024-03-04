@@ -16,5 +16,12 @@ public class InfernalBlockTagProvider extends FabricTagProvider.BlockTagProvider
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(BASALT_IRON_ORE)
+                .add(WARPED_NYLIUM_PATH)
+                .add(CRIMSON_NYLIUM_PATH);
+
+        getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
+                .add(SOUL_SOIL_PATH);
     }
 }

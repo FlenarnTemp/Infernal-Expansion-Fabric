@@ -51,6 +51,9 @@ public class InfernalItemGroups {
                         entries.add(QUARTZ_GLASS_PANE);
                         entries.add(GLOWLIGHT_GLASS);
                         entries.add(GLOWLIGHT_GLASS_PANE);
+
+                        // TODO - sort these thingies
+                        entries.add(BASALT_IRON_ORE);
                     }).build());
 
     public static void registerItemGroups() {

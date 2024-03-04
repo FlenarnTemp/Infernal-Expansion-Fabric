@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "infernal_expansion:block/basalt_iron_ore",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "infernal_expansion:block/basalt_iron_ore"
+    },
+    "axis=z": {
+      "model": "infernal_expansion:block/basalt_iron_ore",
+      "x": 90
+    }
+  }
+}

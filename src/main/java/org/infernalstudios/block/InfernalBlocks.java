@@ -12,6 +12,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import org.infernalstudios.InfernalExpansion;
 
 public class InfernalBlocks {
@@ -39,6 +40,8 @@ public class InfernalBlocks {
     public static final Block CRIMSON_FUNGUS_CAP = registerBlockWithItem("crimson_fungus_cap", new FungalCapBlock(AbstractBlock.Settings.copy(Blocks.NETHER_WART_BLOCK)));
     public static final Block WARPED_FUNGUS_CAP = registerBlockWithItem("warped_fungus_cap", new FungalCapBlock(AbstractBlock.Settings.copy(Blocks.NETHER_WART_BLOCK)));
     public static final Block LUMINOUS_FUNGUS_CAP = registerBlockWithItem("luminous_fungus_cap", new FungalCapBlock(AbstractBlock.Settings.copy(Blocks.NETHER_WART_BLOCK).luminance(lightValue -> 14)));
+
+    public static final Block BASALT_IRON_ORE = registerBlockWithItem("basalt_iron_ore", new BasaltIronOreBlock(AbstractBlock.Settings.copy(Blocks.BASALT)));
 
     public static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, new Identifier(InfernalExpansion.MOD_ID, name),

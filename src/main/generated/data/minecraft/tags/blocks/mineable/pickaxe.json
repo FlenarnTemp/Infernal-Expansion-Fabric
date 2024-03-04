@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "infernal_expansion:basalt_iron_ore",
+    "infernal_expansion:warped_nylium_path",
+    "infernal_expansion:crimson_nylium_path"
+  ]
+}
