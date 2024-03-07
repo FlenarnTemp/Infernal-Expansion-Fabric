@@ -1,10 +1,7 @@
 {
   "itemgroup.InfernalTab": "Infernal Expansion",
 
-  "block.infernal_expansion.cobbled_basalt": "Cobbled Basalt",
-  "block.infernal_expansion.cobbled_basalt_slab": "Cobbled Basalt Slab",
-  "block.infernal_expansion.cobbled_basalt_stairs": "Cobbled Basalt Stairs",
-  "block.infernal_expansion.cobbled_basalt_wall": "Cobbled Basalt Wall",
+  "block.infernal_expansion.basalt_iron_ore": "Basalt Iron Ore",
 
   "block.infernal_expansion.quartz_glass": "Quartz Glass",
   "block.infernal_expansion.quartz_glass_pane": "Quartz Glass Pane",
@@ -15,12 +12,13 @@
   "block.infernal_expansion.glowlight_glass_pane": "Glowlight Glass Pane",
 
   "block.infernal_expansion.crimson_nylium_carpet": "Crimson Nylium Carpet",
+  "block.infernal_expansion.crimson_nylium_path": "Crimson Nylium Path",
   "block.infernal_expansion.warped_nylium_carpet": "Warped Nylium Carpet",
+  "block.infernal_expansion.warped_nylium_path": "Warped Nylium Path",
+  "block.infernal_expansion.soul_soil_path": "Soul Soil Path",
 
-  "item.infernal_expansion.glowcoke":  "Glowcoke",
   "item.infernal_expansion.dullrocks": "Dullrocks",
   "item.infernal_expansion.moth_dust": "Moth Dust",
-  "item.infernal_expansion.molten_gold_cluster": "Molten Gold Cluster",
   "item.infernal_expansion.glowsilk": "Glowsilk",
   "item.infernal_expansion.soul_salt_clump": "Soul Salt Clump",
   "item.infernal_expansion.blindsight_tongue": "Blindsight Tongue",
@@ -33,7 +31,5 @@
   "item.infernal_expansion.music_disc_soul_spunk": "Music Disc",
   "item.infernal_expansion.music_disc_soul_spunk.desc": "LudoCrypt - Soul Spunk",
   "item.infernal_expansion.music_disc_flush": "Music Disc",
-  "item.infernal_expansion.music_disc_flush.desc": "LudoCrypt - flush",
-
-  "effect.infernal_expansion.infection": "Infection"
+  "item.infernal_expansion.music_disc_flush.desc": "LudoCrypt - flush"
 }

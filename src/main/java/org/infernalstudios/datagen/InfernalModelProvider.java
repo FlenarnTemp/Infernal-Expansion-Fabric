@@ -29,7 +29,6 @@ public class InfernalModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         Item[] itemsToRegisterGeneratedModel = {
-                GLOWCOKE,
                 DULLROCKS,
                 MOTH_DUST,
                 GLOWSILK,

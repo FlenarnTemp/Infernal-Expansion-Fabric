@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_stick": {
+    "has_glowstone_dust": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:stick"
+              "minecraft:glowstone_dust"
             ]
           }
         ]
@@ -23,7 +23,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_stick"
+      "has_glowstone_dust"
     ]
   ],
   "rewards": {

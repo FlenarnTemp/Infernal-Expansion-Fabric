@@ -17,7 +17,6 @@ public class InfernalItemGroups {
             new Identifier(InfernalExpansion.MOD_ID, "infernal_expansion"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.InfernalTab"))
                     .icon(() -> new ItemStack(TAB_ITEM)).entries((displayContext, entries) -> {
-                        entries.add(GLOWCOKE);
                         entries.add(DULLROCKS);
                         entries.add(MOTH_DUST);
                         entries.add(GLOWSILK);

@@ -18,9 +18,11 @@ public class InfernalRecipeProvider extends FabricRecipeProvider {
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, InfernalItems.GLOWLIGHT_TORCH_ITEM, 4)
                 .pattern("G")
                 .pattern("S")
-                .input('G', InfernalItems.GLOWCOKE)
+                .pattern("B")
+                .input('G', Items.COAL)
                 .input('S', Items.STICK)
-                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .input('B', Items.GLOWSTONE_DUST)
+                .criterion(hasItem(Items.GLOWSTONE_DUST), conditionsFromItem(Items.GLOWSTONE_DUST))
                 .offerTo(exporter);
     }
 }

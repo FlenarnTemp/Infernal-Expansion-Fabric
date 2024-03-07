@@ -17,7 +17,6 @@ public class InfernalItems {
 
     public static final Item GLOWLIGHT_TORCH_ITEM = registerItem("glowlight_torch_item", new VerticallyAttachableBlockItem(InfernalBlocks.GLOWLIGHT_TORCH, InfernalBlocks.WALL_GLOWLIGHT_TORCH, new Item.Settings(), Direction.DOWN));
 
-    public static final Item GLOWCOKE = registerItem("glowcoke", new Item(new FabricItemSettings()));
     public static final Item DULLROCKS = registerItem("dullrocks", new Item(new FabricItemSettings()));
     public static final Item MOTH_DUST = registerItem("moth_dust", new Item(new FabricItemSettings()));
     public static final Item GLOWSILK = registerItem("glowsilk", new Item(new FabricItemSettings()));

@@ -5,7 +5,6 @@ import net.fabricmc.api.ModInitializer;
 import org.infernalstudios.block.InfernalBlocks;
 import org.infernalstudios.client.particle.InfernalParticles;
 import org.infernalstudios.effect.InfernalEffects;
-import org.infernalstudios.fuel.InfernalFuels;
 import org.infernalstudios.item.InfernalItemGroups;
 import org.infernalstudios.item.InfernalItems;
 import org.infernalstudios.sound.InfernalSounds;
@@ -23,7 +22,6 @@ public class InfernalExpansion implements ModInitializer {
 		InfernalSounds.registerSounds();
 		InfernalItems.registerItems();
 		InfernalBlocks.registerBlocks();
-		InfernalFuels.registerFuels();
 		InfernalEffects.registerEffects();
 		InfernalParticles.registerParticles();
 	}

@@ -2,8 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
+    "B": {
+      "item": "minecraft:glowstone_dust"
+    },
     "G": {
-      "item": "infernal_expansion:glowcoke"
+      "item": "minecraft:coal"
     },
     "S": {
       "item": "minecraft:stick"
@@ -11,7 +14,8 @@
   },
   "pattern": [
     "G",
-    "S"
+    "S",
+    "B"
   ],
   "result": {
     "count": 4,
